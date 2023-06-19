@@ -26,3 +26,6 @@ jobs:
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
+      - name: some output
+        run: echo "{my_date}=Date" >> $GITHUB_OUTPUT
+        shell: bash
