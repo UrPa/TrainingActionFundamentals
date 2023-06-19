@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: UrPa/my_first_docker_action@v1
+        uses: UrPa/my_first_docker_action@V1
         with:
           who-to-greet: 'somebody'
