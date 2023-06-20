@@ -62,6 +62,8 @@ jobs:
     if: github.event.inputs.environment == 'Production'
     steps:
       - run: |
+          echo "${{ vars.MY_PROD }}"
+      - run: |
           echo "🚀 Step 1..."
           sleep 10
       - run: |
